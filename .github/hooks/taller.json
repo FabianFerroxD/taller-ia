@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "hooks": {
+    "UserPromptTransformed": [
+      {
+        "type": "command",
+        "command": ".github/hooks/redact-secreto.sh"
+      }
+    ]
+  }
+}
